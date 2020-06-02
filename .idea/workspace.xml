@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mmblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1clPdRTIMIWe4WPd316TUFuDn1G" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591100293859</updated>
-      <workItem from="1591100296272" duration="2891000" />
+      <workItem from="1591100296272" duration="4939000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1591103620026</created>
@@ -96,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591103620026</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加配置项：&#10;1、mybatis&#10;2、datasource">
+      <created>1591104618820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591104618820</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加配置项：&#10;1、mybatis&#10;2、datasource">
+      <created>1591104656180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591104656180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,13 +116,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="添加配置项：&#10;1、mybatis&#10;2、datasource" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加配置项：&#10;1、mybatis&#10;2、datasource" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="17" key="CommitChangelistDialog2" timestamp="1591104618086">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591104655555">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="303" y="17" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591104618086" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591104655555" />
     <state x="555" y="162" key="FileChooserDialogImpl" timestamp="1591100821553">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -123,13 +136,13 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="601" y="128" key="Github.UntrackedFilesDialog/0.0.1549.831@0.0.1549.831" timestamp="1591101008443" />
-    <state x="367" y="154" key="Vcs.Push.Dialog.v2" timestamp="1591103641183">
+    <state x="367" y="154" key="Vcs.Push.Dialog.v2" timestamp="1591104795774">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="154" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1591103641183" />
-    <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591104635606">
+    <state x="367" y="154" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1591104795774" />
+    <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591107142079">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1591104635606" />
+    <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1591107142079" />
   </component>
 </project>

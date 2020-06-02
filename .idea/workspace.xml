@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="" />
+    <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591100293859</updated>
-      <workItem from="1591100296272" duration="5265000" />
+      <workItem from="1591100296272" duration="6520000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1591103620026</created>
@@ -113,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591107169259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加pojo实体类">
+      <created>1591107384095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591107384095</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加pojo实体类">
+      <created>1591107477762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591107477762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,29 +143,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加pojo实体类" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591107447269">
+    <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1591108465673">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591107447269" />
+    <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1591108465673" />
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591107477129">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591107477129" />
     <state x="555" y="162" key="FileChooserDialogImpl" timestamp="1591100821553">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="162" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1591100821553" />
-    <state x="655" y="312" width="261" height="290" key="Github.ShareDialog" timestamp="1591103765790">
+    <state x="655" y="312" width="261" height="290" key="Github.ShareDialog" timestamp="1591107738554">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="655" y="312" width="261" height="290" key="Github.ShareDialog/0.0.1549.831@0.0.1549.831" timestamp="1591103765790" />
+    <state x="655" y="312" width="261" height="290" key="Github.ShareDialog/0.0.1549.831@0.0.1549.831" timestamp="1591107738554" />
     <state x="601" y="128" key="Github.UntrackedFilesDialog" timestamp="1591101008443">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="601" y="128" key="Github.UntrackedFilesDialog/0.0.1549.831@0.0.1549.831" timestamp="1591101008443" />
-    <state x="367" y="154" key="Vcs.Push.Dialog.v2" timestamp="1591107240785">
+    <state x="367" y="154" key="Vcs.Push.Dialog.v2" timestamp="1591107663247">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="154" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1591107240785" />
+    <state x="367" y="154" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1591107663247" />
     <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591107142079">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1591107142079" />
+    <state x="676" y="211" key="git4idea.merge.GitPullDialog" timestamp="1591107509114">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="676" y="211" key="git4idea.merge.GitPullDialog/0.0.1549.831@0.0.1549.831" timestamp="1591107509114" />
+    <state x="627" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1591108336103">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="627" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1591108336103" />
   </component>
 </project>

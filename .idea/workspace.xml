@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="完善Category的CRUD">
+    <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +48,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/project/meeting" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mappers" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\项目\mmblog\src\main\resources\mappers" />
       <recent name="E:\项目\mmblog\src\main\resources" />
     </key>
   </component>
@@ -87,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591100293859</updated>
       <workItem from="1591100296272" duration="6692000" />
-      <workItem from="1591192512884" duration="1990000" />
+      <workItem from="1591192512884" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1591103620026</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591108663037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完善Category的CRUD">
+      <created>1591195111748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591195111748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,17 +158,18 @@
     <MESSAGE value="添加配置项：&#10;1、mybatis&#10;2、datasource" />
     <MESSAGE value="添加pojo实体类" />
     <MESSAGE value="完善Article的CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善Article的CRUD" />
+    <MESSAGE value="完善Category的CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善Category的CRUD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1591194962236">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1591194962236" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591194875503">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591195110795">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591194875503" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591195110795" />
     <state x="555" y="162" key="FileChooserDialogImpl" timestamp="1591194618385">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

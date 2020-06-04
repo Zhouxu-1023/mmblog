@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mm/blog/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mm/blog/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mm/blog/pojo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mm/blog/pojo/Comment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591100293859</updated>
       <workItem from="1591100296272" duration="6692000" />
-      <workItem from="1591192512884" duration="2409000" />
+      <workItem from="1591192512884" duration="3480000" />
+      <workItem from="1591287232513" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1591103620026</created>
@@ -147,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591195111748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加CategoryMapper.xml、ArticleMapper.xml">
+      <created>1591195533639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591195533639</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,17 +169,18 @@
     <MESSAGE value="添加pojo实体类" />
     <MESSAGE value="完善Article的CRUD" />
     <MESSAGE value="完善Category的CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善Category的CRUD" />
+    <MESSAGE value="添加CategoryMapper.xml、ArticleMapper.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加CategoryMapper.xml、ArticleMapper.xml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1591194962236">
+    <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1591287981460">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1591194962236" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591195110795">
+    <state x="770" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1591287981460" />
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591195532968">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591195110795" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591195532968" />
     <state x="555" y="162" key="FileChooserDialogImpl" timestamp="1591194618385">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -186,18 +197,18 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="473" y="61" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1591193794799" />
-    <state x="367" y="154" key="Vcs.Push.Dialog.v2" timestamp="1591108672873">
+    <state x="367" y="154" key="Vcs.Push.Dialog.v2" timestamp="1591195578314">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="154" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1591108672873" />
+    <state x="367" y="154" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1591195578314" />
     <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591107142079">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="579" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1591107142079" />
-    <state x="676" y="211" key="git4idea.merge.GitPullDialog" timestamp="1591107509114">
+    <state x="676" y="211" key="git4idea.merge.GitPullDialog" timestamp="1591195563571">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="676" y="211" key="git4idea.merge.GitPullDialog/0.0.1549.831@0.0.1549.831" timestamp="1591107509114" />
+    <state x="676" y="211" key="git4idea.merge.GitPullDialog/0.0.1549.831@0.0.1549.831" timestamp="1591195563571" />
     <state x="628" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1591192579874">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

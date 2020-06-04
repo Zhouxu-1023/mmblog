@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author: z_houx
@@ -23,5 +24,8 @@ public class Article {
     private Date createdTime;
     private Date updateTime;
     private Integer del;
+
+    private List<Comment> comments;//一个文章对应的评论集合
+
 
 }

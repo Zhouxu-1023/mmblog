@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author: z_houx
@@ -20,4 +21,6 @@ public class Comment {
     private String commentContent;
     private Date createdTime;
     private Integer del;
+
+    private List<Replay> replays;//评论对应的回复集合
 }

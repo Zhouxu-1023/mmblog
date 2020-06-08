@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560638c5-9a82-424f-a8ce-0d6a305cc929" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mmblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mm/blog/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mm/blog/controller/ArticleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,8 @@
       <workItem from="1591192512884" duration="3480000" />
       <workItem from="1591287232513" duration="1096000" />
       <workItem from="1591458668289" duration="1825000" />
-      <workItem from="1591620561506" duration="3742000" />
+      <workItem from="1591620561506" duration="4402000" />
+      <workItem from="1591625299944" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1591103620026</created>
@@ -183,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591459899106</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完善Article的Controller层代码，基本操作功能">
+      <created>1591624591137</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591624591137</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +200,8 @@
     <MESSAGE value="添加CategoryMapper.xml、ArticleMapper.xml" />
     <MESSAGE value="添加Comment、Replay两个类的CRUD以及简单的Service业务逻辑实现" />
     <MESSAGE value="添加User的Service层、Dao层代码&#10;添加Article的Controller层代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加User的Service层、Dao层代码&#10;添加Article的Controller层代码" />
+    <MESSAGE value="完善Article的Controller层代码，基本操作功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善Article的Controller层代码，基本操作功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591622829722">
@@ -213,10 +216,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="505" y="199" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1549.831@0.0.1549.831" timestamp="1591622506782" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591459898169">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591624590043">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591459898169" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1591624590043" />
     <state x="555" y="162" key="FileChooserDialogImpl" timestamp="1591194618385">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -229,38 +232,38 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="601" y="128" key="Github.UntrackedFilesDialog/0.0.1549.831@0.0.1549.831" timestamp="1591101008443" />
-    <state width="1506" height="535" key="GridCell.Tab.0.bottom" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.0.bottom" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.0.center" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.0.center" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.0.left" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.0.left" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.0.right" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.0.right" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.1.bottom" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.1.bottom" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.1.center" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.1.center" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.1.left" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.1.left" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
-    <state width="1506" height="535" key="GridCell.Tab.1.right" timestamp="1591624361362">
+    <state width="1506" height="209" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
+    <state width="1506" height="209" key="GridCell.Tab.1.right" timestamp="1591625598172">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="535" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1591624361362" />
+    <state width="1506" height="209" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1591625598172" />
     <state x="473" y="61" key="SettingsEditor" timestamp="1591193794799">
       <screen x="0" y="0" width="1549" height="831" />
     </state>

@@ -1,5 +1,6 @@
 package com.mm.blog.service.impl;
 
+import com.mm.blog.exception.BusinessException;
 import com.mm.blog.mapper.ArticleMapper;
 import com.mm.blog.pojo.Article;
 import com.mm.blog.service.ArticleService;
@@ -20,27 +21,27 @@ public class ArticleServiceImpl implements ArticleService {
     private ArticleMapper articleMapper;
 
     @Override
-    public void save(Article article) {
+    public void save(Article article)  throws BusinessException {
         articleMapper.save(article);
     }
 
     @Override
-    public void deleteById(Integer id) {
+    public void deleteById(Integer id)  throws BusinessException{
         articleMapper.deleteById(id);
     }
 
     @Override
-    public void updateById(Article article) {
+    public void updateById(Article article)  throws BusinessException{
         articleMapper.updateById(article);
     }
 
     @Override
-    public Article getById(Integer id) {
+    public Article getById(Integer id) throws BusinessException {
         return articleMapper.getById(id);
     }
 
     @Override
-    public List<Article> getList() {
+    public List<Article> getList() throws BusinessException {
         return articleMapper.getList();
     }
 }

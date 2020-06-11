@@ -1,5 +1,6 @@
 package com.mm.blog.service.impl;
 
+import com.mm.blog.exception.BusinessException;
 import com.mm.blog.mapper.CategoryMapper;
 import com.mm.blog.pojo.Category;
 import com.mm.blog.service.CategoryService;
@@ -20,28 +21,28 @@ public class CategoryServiceImpl implements CategoryService {
     private CategoryMapper categoryMapper;
 
     @Override
-    public void save(Category category) {
+    public void save(Category category) throws BusinessException {
 
         categoryMapper.save(category);
     }
 
     @Override
-    public void deleteById(Integer id) {
+    public void deleteById(Integer id) throws BusinessException {
         categoryMapper.deleteById(id);
     }
 
     @Override
-    public void updateById(Category category) {
+    public void updateById(Category category) throws BusinessException {
         categoryMapper.updateById(category);
     }
 
     @Override
-    public Category getById(Integer id) {
+    public Category getById(Integer id) throws BusinessException {
         return categoryMapper.getById(id);
     }
 
     @Override
-    public List<Category> getList() {
+    public List<Category> getList() throws BusinessException {
         return categoryMapper.getList();
     }
 }

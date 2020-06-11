@@ -1,5 +1,6 @@
 package com.mm.blog.service;
 
+import com.mm.blog.exception.BusinessException;
 import com.mm.blog.pojo.Category;
 
 import java.util.List;
@@ -13,32 +14,37 @@ public interface CategoryService {
 
     /**
      * 添加
+     *
      * @param category
      */
-    void save(Category category);
+    void save(Category category) throws BusinessException;
 
     /**
      * 删除指定分类
+     *
      * @param id
      */
-    void deleteById(Integer id);
+    void deleteById(Integer id) throws BusinessException;
 
     /**
      * 更新指定
+     *
      * @param category
      */
-    void updateById(Category category);
+    void updateById(Category category) throws BusinessException;
 
     /**
      * 获取单个
+     *
      * @param id
      * @return
      */
-    Category getById(Integer id);
+    Category getById(Integer id) throws BusinessException;
 
     /**
      * 获取所有分类
+     *
      * @return
      */
-    List<Category> getList();
+    List<Category> getList() throws BusinessException;
 }

@@ -7,7 +7,7 @@ package com.mm.blog.exception;
  * @Description:自定义异常
  */
 
-public class BusinessException extends RuntimeException {
+public class BusinessException extends Exception {
 
     private Integer code;
 

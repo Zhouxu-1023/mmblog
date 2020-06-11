@@ -1,5 +1,6 @@
 package com.mm.blog.service.impl;
 
+import com.mm.blog.exception.BusinessException;
 import com.mm.blog.mapper.ReplayMapper;
 import com.mm.blog.pojo.Replay;
 import com.mm.blog.service.ReplayService;
@@ -20,27 +21,27 @@ public class ReplayServiceImpl implements ReplayService {
     private ReplayMapper replayMapper;
 
     @Override
-    public void save(Replay replay) {
+    public void save(Replay replay) throws BusinessException {
         replayMapper.save(replay);
     }
 
     @Override
-    public void deleteById(Integer id) {
+    public void deleteById(Integer id) throws BusinessException {
         replayMapper.deleteById(id);
     }
 
     @Override
-    public void updateById(Replay replay) {
+    public void updateById(Replay replay) throws BusinessException {
         replayMapper.updateById(replay);
     }
 
     @Override
-    public Replay getById(Integer id) {
+    public Replay getById(Integer id) throws BusinessException {
         return replayMapper.getById(id);
     }
 
     @Override
-    public List<Replay> getList() {
+    public List<Replay> getList() throws BusinessException {
         return replayMapper.getList();
     }
 }

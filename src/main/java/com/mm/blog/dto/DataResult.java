@@ -18,5 +18,5 @@ public class DataResult<T> {
 
     private String message;
 
-    private String code;
+    private Integer code;
 }
